@@ -53,25 +53,26 @@ function App() {
       </section>
 
       <section id="gallery" className="section">
-        <h2>Gallery</h2>
-        <p>Browse our latest styles and designs.</p>
+  <h2>Gallery</h2>
+  <p>Browse our latest styles and designs.</p>
 
-        <div className="gallery-grid">
-          <div className="gallery-item">
-            <img src={image1} alt="Pakistani outfit 1" />
-            
-          </div>
+  <div className="gallery-grid">
+    <div className="gallery-item">
+      <img src={image1} alt="Pakistani outfit" />
+      <p>Eid Collection</p>
+    </div>
 
-          <div className="gallery-item">
-            <img src={image2} alt="Pakistani outfit 2" />
+    <div className="gallery-item">
+      <img src={image2} alt="Pakistani outfit" />
+      <p>Velvet Dress</p>
+    </div>
 
-          </div>
-
-          <div className="gallery-item">
-            <img src={image3} alt="Pakistani outfit 3" />
-          </div>
-        </div>
-      </section>
+    <div className="gallery-item">
+      <img src={image3} alt="Pakistani outfit" />
+      <p>Casual Wear</p>
+    </div>
+  </div>
+    </section>
 
       <section id="ordering" className="section ordering">
         <h2>How Ordering Works</h2>
